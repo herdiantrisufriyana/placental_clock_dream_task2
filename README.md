@@ -1,1 +1,7 @@
-# placental_clock_dream_task2
+# Placental Clock Dream Task 2
+
+Main source codes are described in index.Rmd which use R. Install renv and restore all R packages using renv::restore().
+
+We used Python for model training and inference as described in index.ipynb. For Python libraries, please restore a Python environment using conda env create -f environment.yml.
+
+Model for the last submission is located in pcd2_sub2/. Use docker to build and run the image, as described in the corresponding section in index.Rmd.
