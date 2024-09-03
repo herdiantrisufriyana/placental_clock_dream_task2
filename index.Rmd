@@ -4016,7 +4016,7 @@ docker buildx build --platform linux/amd64 -t docker.synapse.org/syn62407322/ga-
 cd ..
 ```
 
-## Submission 2: GA res-comb-pred elastic net (imperfectmirror)
+## Submission 2: GA res-comb-pred elastic net (pointofdivergence/imperfectmirror)
 
 ```{bash ResComb-GA prediction - Build loc, eval=FALSE, include=FALSE}
 cd pcd2_sub2
