@@ -70,9 +70,9 @@ data/*
 inst/extdata/*
 input/*
 output/*
-pcd1_sub1/*
-pcd1_sub2/*
-pcd1_sub3/*
+pcd2_sub1/*
+pcd2_sub2/*
+pcd2_sub3/*
 
 # But don't ignore some data
 !inst/extdata/syn59834055.csv
@@ -249,15 +249,15 @@ pcd1_sub3/*
 !inst/extdata/leaderboard_performance.csv
 !data/Sample_IDs.rds
 !data/probe_info*
-!pcd1_sub1/Dockerfile
-!pcd1_sub1/data_preprocessing.R
-!pcd1_sub1/run_model_stage*
-!pcd1_sub1/utils*
-!pcd1_sub2/Dockerfile
-!pcd1_sub2/data_preprocessing.R
-!pcd1_sub2/run_model_stage*
-!pcd1_sub2/utils*
-!pcd1_sub3/Dockerfile
-!pcd1_sub3/data_preprocessing.R
-!pcd1_sub3/run_model_stage*
-!pcd1_sub3/utils*
+!pcd2_sub1/Dockerfile
+!pcd2_sub1/data_preprocessing.R
+!pcd2_sub1/run_model_stage*
+!pcd2_sub1/utils*
+!pcd2_sub2/Dockerfile
+!pcd2_sub2/data_preprocessing.R
+!pcd2_sub2/run_model_stage*
+!pcd2_sub2/utils*
+!pcd2_sub3/Dockerfile
+!pcd2_sub3/data_preprocessing.R
+!pcd2_sub3/run_model_stage*
+!pcd2_sub3/utils*
