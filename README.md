@@ -1,4 +1,4 @@
-# Project template
+# Placental Clock DREAM Challenge 2024 (Task 2)
 
 ## System requirements
 
@@ -6,12 +6,10 @@ Install Docker desktop once in your machine. Start the service every time you bu
 
 ## Installation guide
 
-Change `project_template` to the project image name.
-
 Build the project image once for a new machine (currently support AMD64 and ARM64).
 
 ```{bash}
-docker build -t project_template --load .
+docker build -t placental_clock_dream_task2 --load .
 ```
 
 Run the container every time you start working on the project. Change left-side port numbers for either Rstudio or Jupyter lab if any of them is already used by other applications.
@@ -19,13 +17,13 @@ Run the container every time you start working on the project. Change left-side 
 In terminal:
 
 ```{bash}
-docker run -d -p 8787:8787 -p 8888:8888 -v "$(pwd)":/home/rstudio/project --name project_template_container project_template
+docker run -d -p 8787:8787 -p 8888:8888 -v "$(pwd)":/home/rstudio/project --name placental_clock_dream_task2_container placental_clock_dream_task2
 ```
 
 In command prompt:
 
 ```{bash}
-docker run -d -p 8787:8787 -p 8888:8888 -v "%cd%":/home/rstudio/project --name project_template_container project_template
+docker run -d -p 8787:8787 -p 8888:8888 -v "%cd%":/home/rstudio/project --name placental_clock_dream_task2_container placental_clock_dream_task2
 ```
 
 ## Instructions for use
@@ -45,7 +43,7 @@ Your working directory is ~/project.
 Use terminal/command prompt to run the container terminal.
 
 ```{bash}
-docker exec -it project_template_container bash
+docker exec -it placental_clock_dream_task2_container bash
 ```
 
 In the container terminal, run jupyter lab using this line of codes.
@@ -55,6 +53,10 @@ jupyter-lab --ip=0.0.0.0 --no-browser --allow-root
 ```
 
 Click a link in the results to open jupyter lab in a browser. Change port number in the link, accordingly, if it is already used by other applications.
+
+## Source code preview
+
+The HTML preview is shown [**here**](https://herdiantrisufriyana.github.io/placental_clock_dream_task2/index.html).
 
 
 
